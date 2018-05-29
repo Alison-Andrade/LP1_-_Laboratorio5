@@ -1,5 +1,5 @@
-#ifndef CLOSEST2MEAN_H
-#define CLOSEST2MEAN_H
+#ifndef _CLOSEST2MEAN_H_
+#define _CLOSEST2MEAN_H_
 
 #include <numeric>
 #include <iterator>
@@ -12,8 +12,6 @@ InputIterator closest2mean(InputIterator first, InputIterator last){
 	InputIterator closest = first;
 	first++;
 
-	std::cout << *first - mean << std::endl;
-
 	while(first != last) {
 	    if(std::abs(*first-mean) < std::abs(*closest-mean)) {
 	    	closest = first;
@@ -25,4 +23,4 @@ InputIterator closest2mean(InputIterator first, InputIterator last){
 	return closest;
 }
 
-#endif // CLOSEST2MEAN_H
+#endif // _CLOSEST2MEAN_H_

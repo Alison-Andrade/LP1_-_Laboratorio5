@@ -1,5 +1,6 @@
 *.o
-teste*
+*.out
+test*
 *~
 doc/
 bin/

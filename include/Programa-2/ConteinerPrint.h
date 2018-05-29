@@ -1,5 +1,5 @@
-#ifndef CONTEINERPRINT_H
-#define CONTEINERPRINT_H
+#ifndef _CONTEINERPRINT_H_
+#define _CONTEINERPRINT_H_
 
 #include <iostream>
 
@@ -14,4 +14,4 @@ void print_elements(const TContainer& collection, const char* label="", const ch
 	std::cout << std::endl;
 }
 
-#endif // CONTEINERPRINT_H
+#endif // _CONTEINERPRINT_H_
