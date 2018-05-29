@@ -1,0 +1,6 @@
+*.o
+teste*
+*~
+doc/
+bin/
+build/
